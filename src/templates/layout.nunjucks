@@ -65,7 +65,7 @@
                 <label class="isVisuallyHidden" for="smallNav">Site Navigation</label>
                 <select class="field field--select" name="smallNav" id="smallNav">
                     <option value="">Navigate to &hellip;</option>
-                    <option value="/kb/">Home</option>
+                    <option value="/kb">Home</option>
                     <option value="/kb/research.html">Research</option>
                     <option value="/kb/teaching.html">Teaching</option>
                     <option value="/kb/vitae.html">Vitae</option>
@@ -75,7 +75,7 @@
             <div class="showAboveSmall">
                 <ul class="hList hList--2x">
                     <li>
-                        <a class="txt txt--action" href="/">Home</a>
+                        <a class="txt txt--action" href="/kb">Home</a>
                     </li>
                     <li>
                         <a class="txt txt--action" href="/kb/research.html">Research</a>
