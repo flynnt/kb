@@ -21,8 +21,8 @@ export default function build(done) {
     return runSequence(...tasks,
         () => {
             const message = process.env.WATCH === 'true' ?
-                    'Starting watch...' :
-                    'Build complete';
+                'Starting watch...' :
+                'Build complete';
             gutil.log(gutil.colors.white.bgGreen.bold(message));
             process.env.watchStarted = true;
             done();

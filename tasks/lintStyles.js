@@ -18,8 +18,10 @@ export default function lintStyles() {
                 { formatter: 'string', console: true },
             ],
         })
-        .on('error',
-        () => {
-            gutil.log(gutil.colors.white.bgRed.bold('SCSS/CSS lint issues found - build exiting.'));
-        }));
+            .on('error',
+                () => {
+                    gutil.log(
+                        gutil.colors.white.bgRed.bold('SCSS/CSS lint issues found - build exiting.'
+                        ));
+                }));
 }

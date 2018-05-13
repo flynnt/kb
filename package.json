@@ -61,7 +61,6 @@
         "dev": "cross-env NODE_ENV=development gulp",
         "icons": "cross-env NODE_ENV=development gulp icons",
         "serve": "cross-env NODE_ENV=development gulp serve",
-        "docs": "cross-env NODE_ENV=development gulp docs",
         "lintScripts": "cross-env NODE_ENV=development gulp lintScripts",
         "lintStyles": "cross-env NODE_ENV=development gulp lintStyles",
         "optimize": "cross-env NODE_ENV=development gulp optimize",
