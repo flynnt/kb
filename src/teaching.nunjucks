@@ -5,5 +5,17 @@
         <header class="vr vr--4x">
             <h2 class="hdg hdg--1">Teaching</h2>
         </header>
+        <p>My teaching philosophy is founded on two fundamental beliefs:  1) for the teacher, teaching is a skill that can always be improved upon, and 2) for the student, teaching should stimulate intellectual curiosity and the sociological imagination.  I believe that teaching should be an interactive, dynamic, and reciprocal process.  Teachers have the ability to generate a passion for knowledge among their students, and the responsibility to produce not only future social scientists, but also good citizens.  I am motivated by the desire to teach sociology to my students, as well as to convey to them the importance of learning, the development of critical thinking skills, and the ability to draw parallels between classroom facts and larger intellectual themes.  Teaching sociology and criminology provides a unique opportunity to apply knowledge to life.  Students are constantly faced with experiences and stories of social problems.  It is my hope that knowledge provided in the classroom may help them to understand these experiences and, in the reverse fashion, these experiences may inform classroom material.</p>
+        <aside>
+            <div class="vr vr--3x">
+                <h2 class="hdg hdg--2">Recent Courses</h2>
+            </div>
+            <ul class="vList">
+                <li><a href="syllabi/animals-society.html">Animals &amp; Society</a></li>
+                <li><a href="syllabi/communities-and-crime.html">Communities and Crime</a></li>
+                <li><a href="syllabi/deviance-society.html">Deviance in Society</a></li>
+                <li><a href="syllabi/foundations-sociology.html">Foundations of Sociology</a></li>
+            </ul>
+        </aside>
     </article>
 {% endblock %}

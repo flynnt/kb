@@ -1,9 +1,303 @@
-{% extends "./templates/layout.nunjucks" %}
-
-{% block content %}
-    <article>
-        <header class="vr vr--4x">
-            <h2 class="hdg hdg--1">Vitae</h2>
-        </header>
-    </article>
+{% extends "./templates/layout.nunjucks" %} {% block content %}
+<article>
+    <header class="vr vr--4x">
+        <h2 class="hdg hdg--1">Curriculum Vitae</h2>
+    </header>
+    <div class="vr vr--8x">
+        <div class="userContent">
+            <h1>Keri B. Burchfield</h1>
+            <p>908 Zulauf Hall
+                <br> Department of Sociology
+                <br> Northern Illinois University
+                <br> DeKalb, IL 60115</p>
+            <h2>Education</h2>
+            <p>2005 - PhD., Crime, Law and Justice Program, Pennsylvania State University.</p>
+            <p>1997 - M.A., Criminology and Criminal Justice, Florida State University.</p>
+            <p>1994 - B.A., Psychology, University of California, Santa Barbara.</p>
+            <h2>Research and Teaching Interests</h2>
+            <p>Criminology, Communities and Crime, Sex Offenders, Animals and Crime,
+                Sociology of Deviance, Urban Sociology</p>
+            <h2>Professional Experience</h2>
+            <p>2011 – present:&nbsp; Associate Professor, Department of Sociology, Northern
+                Illinois University.</p>
+            <p>2006 – present:&nbsp; Core Faculty Affiliate, Center for the Study of
+                Family Violence and Sexual Assault, Northern Illinois University.</p>
+            <p>2011 - 2015:&nbsp; Director of Graduate Studies, Department of Sociology,
+                Northern Illinois University.</p>
+            <p>2005 – 2011:&nbsp; Assistant Professor, Department of Sociology, Northern
+                Illinois University.</p>
+            <p>2000 – 2001:&nbsp; Program Analyst, Identity Theft Program, Federal Trade
+                Commission.
+            </p>
+            <p>1998 – 2000:&nbsp; Research Assistant, United States Sentencing Commission.</p>
+            <p>1998:&nbsp; Research Associate, National Council on Crime and Delinquency.</p>
+            <h2>Publications</h2>
+            <p>Katz, Nathan and Keri B. Burchfield. Forthcoming. Special needs animals
+                and those who care for them.&nbsp;
+                <em>Society and Animals.&nbsp;</em>
+            </p>
+            <p>Burchfield, Keri B. &nbsp;2016.&nbsp; The sociology of animal crime:
+                An examination of incidents and arrests in Chicago.&nbsp;
+                <em>Deviant Behavior, </em>37: 368-384
+                <em>.</em>
+            </p>
+            <p>Burchfield, Keri B., Lisa L. Sample and Robert Lytle. &nbsp;2014.&nbsp;
+                Public interest in sex offenders: A perpetual panic?&nbsp;
+                <em>Criminology, Criminal Justice, Law &amp; Society,&nbsp;</em>15: 96-117.</p>
+            <p>Burchfield, Keri B. and William Mingus. &nbsp;2014. &nbsp;Sex offender
+                reintegration: Consequences of the local neighborhood context.&nbsp;
+                <em>American Journal of Criminal Justice, </em>39: 109-124
+                <em>.</em>
+            </p>
+            <p>Burchfield, Keri B. and Eric Silver. &nbsp;2013.&nbsp; Collective efficacy
+                and crime in Los Angeles neighborhoods:&nbsp; Implications for the
+                Latino paradox.&nbsp;
+                <em>Sociological Inquiry, </em>83: 154-176.</p>
+            <p>Keri B. Burchfield. &nbsp;2012.&nbsp; Assessing&nbsp; community residents'
+                perceptions of local registered sex offenders.&nbsp;
+                <em>Deviant Behavior, </em>33: 241-259.</p>
+            <p>Mingus, William and Keri Burchfield. &nbsp;2012.&nbsp; From prison to
+                integration:&nbsp; Applying modified labeling theory to sex offenders.&nbsp;
+                <em>Criminal Justice Studies, </em>25: 97-109
+                <em>.</em>
+            </p>
+            <p>Warner, Barbara D. and Keri B. Burchfield.&nbsp; 2011.&nbsp; Misperceived
+                neighborhood values and informal social control.&nbsp;
+                <em>Justice Quarterly</em>, 28: 606-630.</p>
+            <p>Oakley, Deirdre and Keri B. Burchfield. 2009.&nbsp; Out of the projects,
+                still in the hood: The spatial constraints on public housing residents'
+                relocation in Chicago.&nbsp;
+                <em>Journal of Urban Affairs</em>, 31: 589-614.</p>
+            <p>Burchfield, Keri B.&nbsp; 2009.&nbsp; Attachment as a source of informal
+                social control in urban neighborhoods.&nbsp;
+                <em> Journal of Criminal Justice</em>, 37: 45-54.</p>
+            <p>Hughes, Lorine A. and Keri B. Burchfield.&nbsp; 2008.&nbsp; Sex offender
+                residence restrictions in Chicago: An environmental injustice?&nbsp;
+                <em>Justice Quarterly</em>, 25: 647-673.</p>
+            <p>Felson, Richard B. Brent E. Teasdale and Keri B. Burchfield.&nbsp; 2008.&nbsp;
+                The influence of being under the influence:&nbsp; Alcohol effects
+                on adolescent violence.&nbsp;
+                <em>Journal of Research in Crime and Delinquency</em>, 45: 119 - 141.</p>
+            <p>Burchfield, Keri B. and William Mingus.&nbsp; 2008.&nbsp; Not in my neighborhood:&nbsp;
+                Assessing registered sex offenders' experiences with local social
+                capital and social control.&nbsp;
+                <em>Criminal Justice and Behavior</em>, 35: 356-374.</p>
+            <p>Felson, Richard B., Keri B. Burchfield and Brent E. Teasdale.&nbsp; 2007.&nbsp;
+                The impact of alcohol on different types of violent incidents.&nbsp;
+                <em>Criminal Justice and Behavior</em>, 34: 1057-1068.</p>
+            <p>Felson, Richard B. and Keri B. Burchfield.&nbsp; 2004.&nbsp; Alcohol
+                and the risk of physical and sexual assault victimization.&nbsp;
+                <em>Criminology</em>, 42: 837-859.</p>
+            <p>Maxfield, Linda D. and Keri B. Burchfield.&nbsp; 2002.&nbsp; Immigration
+                offenses involving unlawful entry:&nbsp; Is federal practice comparable
+                across districts?&nbsp;
+                <em>Federal Sentencing Reporter</em>, 14: 260-266.</p>
+            <h2>
+                Other Publications</h2>
+            <p>Keri B. Burchfield. 2011. Residence restrictions.&nbsp;
+                <em>Criminology and Public Policy</em>, 10: 411-419.</p>
+            <p>Book review of Meloy, Michelle L.&nbsp; 2008.&nbsp; Sex offenders and
+                the men who commit them:&nbsp; An assessment of sex offenders on
+                probation.&nbsp;
+                <em>Criminal Justice Review</em>, 33: 260-262.</p>
+            <h2>Grant Proposals</h2>
+            <p>Burchfield, Keri B. &nbsp;A Pilot Study to Evaluate the Impact of Safe
+                Humane's Lifetime Bonds Program.&nbsp; Grant proposal submitted to
+                the Northern Illinois University Graduate Council Committee on Research
+                and Artistry, March 2016.&nbsp; $12,426.&nbsp; Not funded.
+            </p>
+            <p>
+                Safe Humane Chicago with Keri B. Burchfield, principal investigator.&nbsp; Evaluating
+                the Welfare of Safe Humane Chicago's Court Case Dogs.&nbsp; Grant
+                proposal submitted to the Parks Foundation, May 2015.&nbsp; $10,000.&nbsp;
+                Not funded.
+            </p>
+            <p>Manila Consulting with Keri B. Burchfield, sub-contractor.&nbsp; Evaluation
+                of Safe Humane Chicago's Lifetime Bonds Program.&nbsp; Grant proposal
+                submitted to the Office of Juvenile Justice and Delinquency Prevention
+                (OJJDP), April 2012. &nbsp;$400,000. &nbsp;Not funded.</p>
+            <p>Manila Consulting with Keri B. Burchfield, consultant and study liaison.&nbsp;
+                Animal Abuse and Polyvictimization.&nbsp; Grant proposal submitted
+                to the &nbsp;National Institute of Justice, $175,000, April 2012.
+                &nbsp;Not funded.
+            </p>
+            <p>Burchfield, Keri B. and Richard Tewksbury. Assessing Community Residents'
+                Access to Information about Local Sex Offenders:&nbsp; Proposal for
+                a Mail-out Survey.&nbsp; Grant proposal submitted to Google Research
+                Awards, April 2010.&nbsp; $15,000.&nbsp; Not funded.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Grant proposal submitted to the American Sociological Association
+                Fund for Advancement of the Discipline, June 2007. $6,975. Funded.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Grant proposal submitted to the Northern Illinois University Graduate
+                Council Committee on Research and Artistry, September 2006. $6,000.
+                Funded.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Grant proposal submitted to the Society for the Scientific Study
+                of Sexuality, December 2006. $1,000. Not funded.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Grant proposal submitted to the American Sociological Association
+                Fund for Advancement of the Discipline, December 2006. $6,975. Not
+                funded.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Grant proposal submitted to the Open Society Institute After-Prison
+                Initiative, July 2006. $50,000. Not funded.</p>
+            <h2>Award</h2>
+            <p>Pre-Doctoral Fellowship Recipient, National Consortium on Violence Research
+                (NCOVR), Mentor: Edward P. Mulvey.</p>
+            <h2>
+                Presentations and Invited Talks</h2>
+            <p>
+                Burchfield, Keri B.&nbsp; The Sociology of Animal Crime.&nbsp; Invited talk at a
+                panel discussion on dog fighting.&nbsp; Center for Animal Law at
+                DePaul University, Chicago, November 2015.
+            </p>
+            <p>
+                Burchfield, Keri B.&nbsp; The Sociology of Animal Crime.&nbsp; Invited talk at the
+                Animal Law Committee meeting, Chicago Bar Association, Chicago, October
+                2015.
+            </p>
+            <p>Burchfield, Keri B. and William Mingus.&nbsp; Sex Offender Reintegration:
+                Consequences of the Local Neighborhood Context.&nbsp; Paper presented
+                at the
+                <em>American Society of Criminology Annual Conference</em>, Chicago,
+                November 2012.
+            </p>
+            <p>Burchfield, Keri B. Assessing Registered Sex Offenders' Experiences With
+                Local Social Capital and Social Control. Paper presented at the International
+                Association for the Treatment of Sex Offenders International Conference,
+                Oslo, Norway, September 2010.</p>
+            <p>Burchfield, Keri B. Assessing Community Residents' Perceptions of Local
+                Registered Sex Offenders. Paper presented at the International Association
+                for the Treatment of Sex Offenders International Conference, Oslo,
+                Norway, September 2010.
+            </p>
+            <p>Burchfield, Keri B. and Eric Silver. Questioning the systemic model:
+                The effects of social ties on informal social control in Los Angeles
+                neighborhoods. Paper presented at the American Society of Criminology
+                Annual Conference, St. Louis, October 2008.</p>
+            <p>Warner, Barbara D. and Keri B. Burchfield. Misperceived neighborhood
+                values and informal social control. Paper presented at the American
+                Society of Criminology Annual Conference, St. Louis, October 2008.</p>
+            <p>Burchfield, Keri B. Not in my neighborhood: Assessing registered sex
+                offenders' experiences with local social capital and social control.
+                Paper presented at the American Society of Criminology Annual Conference,
+                Los Angeles, November 2006.</p>
+            <p>Burchfield, Keri B. Attachment as a source of informal social control
+                in urban neighborhoods. Paper presented at the American Society of
+                Criminology Annual Conference, Toronto, November 2005.</p>
+            <p>Burchfield, Keri B. Attachment as a source of informal social control
+                in Chicago neighborhoods. Presented at a poster session of the American
+                Society of Criminology Annual Conference, Nashville, November 2004.</p>
+            <p>Burchfield, Keri B. Color versus class: Differential effects of race
+                and poverty on informal social control. Presented at a poster session
+                of the American Society of Criminology Annual Conference, Denver,
+                November 2003.
+            </p>
+            <p>Felson, Richard B. and Keri B. Burchfield. Substance use among offenders
+                and victims of physical and sexual assault. Paper presented at the
+                American Society of Criminology Annual Conference, Denver, November
+                2003.</p>
+            <p>Burchfield, Keri B. Public opinion and punitive policy: What is the link?
+                Paper presented at the American Society of Criminology Annual Conference,
+                Chicago, November 2002.</p>
+            <p>Mrozoski, Barbara, Ralph Fretz, Eric Silver, Keri B. Burchfield, Robert
+                Mackey, Michael Oliver, and Kirk Heilbrun. Characteristics of post-release
+                inmates escaping from community correctional placements. Paper presented
+                at the American Psychology-Law Society Biennial Conference, Austin,
+                March 2002.</p>
+            <p>Maxfield, Linda D., and Keri B. Burchfield. Immigration offenses: Tracking
+                federal prosecutorial and sentencing practices across districts.
+                Paper presented at the American Society of Criminology Annual Conference,
+                Toronto, November 1999.</p>
+            <p>Burchfield, Keri B. Prison versus alternative confinement: Issues for
+                short-term offenders. Paper presented at the American Society of
+                Criminology Annual Conference, Toronto, November&nbsp;1999.</p>
+            <h2>Additional Research Experience</h2>
+            <p>2001 – 2005:&nbsp; Research Assistant, Pennsylvania State University.</p>
+            <p>1995 – 1997:&nbsp; Research Assistant, Florida State University.</p>
+            <p>1994:&nbsp; Research Assistant,&nbsp;University of California, Irvine,
+                School of Social Ecology.</p>
+            <p>1994:&nbsp; Research Assistant, University of California, Santa Barbara,
+                Department of Psychology.</p>
+            <h2>
+                Teaching</h2>
+            <p>2005 – present:&nbsp; Foundations in Sociology (SOCI 300), Criminology
+                (SOCI 381), Deviance in Society (SOCI 380), Animals and Society (SOCI
+                395), Communities and Crime (SOCI 480), Theories of Crime and Delinquency
+                (SOCI 581). Northern Illinois University.</p>
+            <p>2005:&nbsp; Deviance (instructor), Pennsylvania State University.</p>
+            <p>2004:&nbsp; Social Statistics (lab instructor) and Criminology (instructor),
+                Pennsylvania State University.</p>
+            <p>2003:&nbsp; Juvenile Delinquency (instructor), Pennsylvania State University.</p>
+            <h2>
+                Professional Service</h2>
+            <p>2014: &nbsp;Reviewer for
+                <em>Social Problems</em>.</p>
+            <p>2009 – 2014: &nbsp;Reviewer for
+                <em>Journal of Quantitative Criminology</em>.</p>
+            <p>2008 – 2014: &nbsp;Reviewer for
+                <em>Justice Quarterly</em>.</p>
+            <p>2006 – 2014: &nbsp;Reviewer for
+                <em>Criminology</em>.</p>
+            <p>2012: &nbsp;Reviewer for
+                <em>American Sociological Review</em>.</p>
+            <p>2010: &nbsp;Grant proposal reviewer for National Science Foundation.</p>
+            <p>2009: &nbsp;Reviewer for
+                <em>Canadian Journal of Criminology and Criminal Justice</em>.</p>
+            <p>2008: &nbsp;Reviewer for
+                <em>Journal of Research in Crime and Delinquency</em>.</p>
+            <p>2007: &nbsp;Reviewer for
+                <em>Criminal Justice Review</em>.</p>
+            <p>2005: &nbsp;Reviewer for the
+                <em>Sociological Quarterly.</em>
+            </p>
+            <p>2005: &nbsp;Manuscript reviewer for Rowman and Littlefield.</p>
+            <h2>Professional Membership</h2>
+            <p>2003 – present:&nbsp; Member, American Sociological Association.</p>
+            <p>1995 – present:&nbsp; Member, American Society of Criminology.</p>
+            <h2>References</h2>
+            <p>Dr. Eric Silver
+                <br> Professor of Crime, Law, Justice, and Sociology
+                <br> 211 Oswald Tower
+                <br> Department of Sociology
+                <br> The Pennsylvania State University
+                <br> University Park, PA 16802-6207
+                <br> Phone: (814) 865-8867
+                <br> Fax: (814) 863-7216</p>
+            <p>Dr. Deirdre Oakley
+                <br> Associate Professor
+                <br> Department of Sociology
+                <br> Georgia State University
+                <br> Atlanta, GA 30302
+                <br> Phone: 404-413-6511
+                <br> Fax: 404-413-6505</p>
+            <p>Dr. Kristen Myers
+                <br> Professor
+                <br> Department of Sociology
+                <br> Northern Illinois University
+                <br> DeKalb, IL 60115
+                <br> Phone: 815-753-6431
+                <br> Fax: 815-753-6302</p>
+            <p>
+                <em>Revised April 2016</em>
+            </p>
+        </div>
+    </div>
+    <aside>
+        <div class="vr vr--3x">
+            <h2 class="hdg hdg--2">Downloads</h2>
+        </div>
+        <ul class="vList">
+            <li>
+                <a href="assets/media/uploads/Vitae_march2016b.pdf">Vitae</a>
+            </li>
+        </ul>
+    </aside>
+</article>
 {% endblock %}

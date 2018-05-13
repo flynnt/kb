@@ -1,0 +1,16 @@
+{% extends "./templates/layout.nunjucks" %}
+
+{% block content %}
+    <article>
+        <header class="vr vr--4x">
+            <h2 class="hdg hdg--1">Deviance in Society</h2>
+        </header>
+        <p>What is deviance?  That is a good question, and one which this course is designed to answer.  This course will examine how society produces deviance, how it tries to reduce deviance, and how it deals with those who act in unconventional ways – those we call deviants.  We will read and discuss some of the best writings available on the subject of deviance, learn about specific deviant groups in society, and explore our own acts of deviance. </p>
+        <aside>
+            <div class="vr vr--3x">
+                <h2 class="hdg hdg--2">Syllabus</h2>
+            </div>
+            <a href="../assets/media/uploads/dev_syllabus_fall 12.pdf">SOCI 380 Fall 2012 Syllabus</a>
+        </aside>
+    </article>
+{% endblock %}
