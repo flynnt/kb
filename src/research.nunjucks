@@ -1,0 +1,28 @@
+{% extends "./templates/layout.nunjucks" %}
+
+{% block content %}
+    <article class="vr vr--8x">
+        <header class="vr vr--4x">
+            <h1 class="hdg hdg--1">Research</h1>
+        </header>
+        <p>The study of neighborhoods has a long tradition in sociology and criminology.  The neighborhood can serve as an important theoretical and empirical microcosm in which to examine the effects of social structural characteristics on a range of outcomes, including crime.  My scholarship seeks to understand the causes and consequences of informal community organization on crime prevention and control, including the cultivation of informal social control and the sociological experiences of released sex offenders.  Accordingly, my scholarly activities currently focus on two substantive areas: 1) neighborhood effects on social control and crime in urban neighborhoods, including the effects of neighborhood disadvantage and disorder on residents’ willingness to intervene in local problems;  2) sex offender re-entry and reintegration, as well as collateral consequences of sex offender policy.</p>
+        <p>Recently, my work has moved toward new lines of questioning about neighborhood structural constraints and local crime prevention and control.   Some of the new questions I am pursuing include an examination of the relationships between animal crime and human crime in the city of Chicago.  This line of research offers important implications for the generality of crime and violence, as well as the significance of the human-animal bond.
+        </p>
+    </article>
+    <aside>
+        <div class="vr vr--3x">
+            <h2 class="hdg hdg--2">Recent Publications</h2>
+        </div>
+        <ul class="vList">
+            <li>
+                <a href="#">Burchfield, 2017</a>
+            </li>
+            <li>
+                <a href="#">Burchfield, 2016</a>
+            </li>
+            <li>
+                 <a href="#">Burchfield and Silver, 2013</a>
+            </li>
+        </ul>
+    </aside>
+{% endblock %}

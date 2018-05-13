@@ -1,0 +1,9 @@
+{% extends "./templates/layout.nunjucks" %}
+
+{% block content %}
+    <article>
+        <header class="vr vr--4x">
+            <h2 class="hdg hdg--1">Contact</h2>
+        </header>
+    </article>
+{% endblock %}

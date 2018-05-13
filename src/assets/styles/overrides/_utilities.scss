@@ -1,0 +1,28 @@
+/* ----------------------------------------------------------------------------
+Overrides: Utilities
+---------------------------------------------------------------------------- */
+.isVisuallyHidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.showAboveSmall {
+    display: none !important;
+}
+
+@include bpSmall() {
+    .hideAboveSmall {
+        display: none !important;
+    }
+
+    .showAboveSmall {
+        display: block !important;
+    }
+}
