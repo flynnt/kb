@@ -1,4 +1,5 @@
 {% extends "./templates/layout.nunjucks" %}
+{% set pageName = 'Teaching - Deviance in Society' %}
 
 {% block content %}
     <article>

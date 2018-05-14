@@ -1,4 +1,5 @@
 {% extends "./templates/layout.nunjucks" %}
+{% set pageName = 'Contact' %}
 
 {% block content %}
     <article>

@@ -1,4 +1,5 @@
 {% extends "./templates/layout.nunjucks" %}
+{% set pageName = 'Research' %}
 
 {% block content %}
     <article class="vr vr--8x">

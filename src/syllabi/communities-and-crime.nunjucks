@@ -1,4 +1,5 @@
 {% extends "./templates/layout.nunjucks" %}
+{% set pageName = 'Teaching - Communities and Crime' %}
 
 {% block content %}
     <article>

@@ -34,6 +34,7 @@ function buildMarkup() {
         .pipe(nunjucksRender({
             path: process.env.DIRECTORY_SRC,
             data: {
+                baseURL: process.env.BASE_URL,
                 version: pkg.version,
                 date: new Date().toISOString(),
                 env: process.env.NODE_ENV,

@@ -1,4 +1,7 @@
-{% extends "./templates/layout.nunjucks" %} {% block content %}
+{% extends "./templates/layout.nunjucks" %}
+{% set pageName = 'Curriculum Vitae' %}
+
+{% block content %}
 <article>
     <header class="vr vr--4x">
         <h2 class="hdg hdg--1">Curriculum Vitae</h2>
