@@ -109,7 +109,7 @@
     </main>
     <footer role="contentinfo" class="site-ft">
         <span class="txt txt--diminutive">
-            &copy; 2018 Keri Burchfield, PhD
+            &copy; 2021 Keri Burchfield, PhD
         </span>
     </footer>
     {% block scriptsBody %}
