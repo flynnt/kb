@@ -6,8 +6,8 @@
         <header class="vr vr--4x">
             <h2 class="hdg hdg--1">Home</h2>
         </header>
-        <p>I am an associate professor of sociology and criminology at Northern Illinois University.  My primary research interests include communities and crime, specifically investigating the effects of neighborhood structure and community organization on crime prevention and control.  My recent research involves projects examining the sociological experiences of released sex offenders, as well as the link between animal violence and human crime in urban communities.  I teach Foundations in Sociology, Criminology, Criminological Theory, Deviance, Communities &amp; Crime and Animals &amp; Society.</p>
+        <p>I am a professor of sociology and criminology at Northern Illinois University. My primary research interests include communities and crime, specifically investigating the effects of neighborhood structure and community organization on crime prevention and control. My recent research involves projects examining the link between animal violence and human crime in urban communities, as well as broader correlates of animal welfare. I also run an animal-assisted intervention at the Illinois Youth Center in St. Charles.  I teach Foundations in Sociology, Criminology, Criminological Theory, Deviance, Communities &amp; Crime and Animals &amp; Society.</p>
 
-        <p>In my spare time, I am a board member and active volunteer with <a href="http://safehumanechicago.org/">Safe Humane Chicago</a>, whose mission is to create safe and humane communities by inspiring positive relationships between people and animals.  I also maintain a Tumblr blog called <a href="http://cutedogssleeping.tumblr.com/">Let Sleeping Dogs Lie</a>, which showcases pictures of rescued dogs sleeping peacefully in their new homes.</p>
+        <p>In my spare time, I am an active volunteer at my local animal shelter, and with <a href="https://safehumanechicago.org">Safe Humane Chicago</a>, whose mission is to create safe and humane communities by inspiring positive relationships between people and animals.</p>
     </article>
 {% endblock %}
