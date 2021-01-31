@@ -1,1 +1,56 @@
-!function i(o,f,a){function c(r,e){if(!f[r]){if(!o[r]){var n="function"==typeof require&&require;if(!e&&n)return n(r,!0);if(s)return s(r,!0);var t=new Error("Cannot find module '"+r+"'");throw t.code="MODULE_NOT_FOUND",t}var u=f[r]={exports:{}};o[r][0].call(u.exports,function(e){return c(o[r][1][e]||e)},u,u.exports,i,o,f,a)}return f[r].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)c(a[e]);return c}({1:[function(e,r,n){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t,u=function(){function t(e,r){for(var n=0;n<r.length;n++){var t=r[n];t.enumerable=t.enumerable||!1,t.configurable=!0,"value"in t&&(t.writable=!0),Object.defineProperty(e,t.key,t)}}return function(e,r,n){return r&&t(e.prototype,r),n&&t(e,n),e}}(),i=e("nerdery-has-js"),o=(t=i)&&t.__esModule?t:{default:t};var f=function(){function e(){!function(e,r){if(!(e instanceof r))throw new TypeError("Cannot call a class as a function")}(this,e),this.init()}return u(e,[{key:"init",value:function(){o.default.init(),this.jumpMenu()}}]),e}();n.default=f},{"nerdery-has-js":"nerdery-has-js"}],2:[function(e,r,n){"use strict";var t,u=e("App");new((t=u)&&t.__esModule?t:{default:t}).default},{App:1}]},{},[2]);
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _nerderyHasJs = require('nerdery-has-js');
+
+var _nerderyHasJs2 = _interopRequireDefault(_nerderyHasJs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * Application setup
+ *
+ * @class App
+ */
+var App = function () {
+    function App() {
+        _classCallCheck(this, App);
+
+        this.init();
+    }
+
+    _createClass(App, [{
+        key: 'init',
+        value: function init() {
+            _nerderyHasJs2.default.init();
+            this.jumpMenu();
+        }
+    }]);
+
+    return App;
+}();
+
+exports.default = App;
+
+},{"nerdery-has-js":"nerdery-has-js"}],2:[function(require,module,exports){
+'use strict';
+
+var _App = require('App');
+
+var _App2 = _interopRequireDefault(_App);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+new _App2.default();
+
+},{"App":1}]},{},[2])
+
+//# sourceMappingURL=main.js.map
