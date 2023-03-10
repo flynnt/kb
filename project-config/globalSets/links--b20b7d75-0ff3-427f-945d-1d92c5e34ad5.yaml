@@ -1,0 +1,24 @@
+fieldLayouts:
+  bb2ce9fe-ca62-4c75-9556-fa81a5ed5eff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0e1f33ee-a6fc-41fb-8de1-a932cc9d219e # Generic Link
+            instructions: null
+            label: 'Donation Link'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b05cee3c-1dfc-42ca-98b0-999f48a79701
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f8b1834d-c080-4b7b-bf3f-438ae290be08
+        userCondition: null
+handle: links
+name: Links
+sortOrder: 2

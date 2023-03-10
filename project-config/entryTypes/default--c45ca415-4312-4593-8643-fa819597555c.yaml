@@ -1,0 +1,55 @@
+fieldLayouts:
+  817a0408-7c58-4b09-84d1-1ed9c0bb44a7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a90cc377-a49d-4de8-9fe4-62aad0f0b955
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ec1e773-3ffc-4032-9d3b-0a9453e3a498 # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c685405f-0546-4350-b3fb-f02b52eed204
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dcb4bcdc-292c-4a03-bc17-3e312750b9ad
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 7e27c6f5-9afe-46ec-bd0b-4ddac1c0f97a # Birthday Invitations
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

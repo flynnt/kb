@@ -1,0 +1,67 @@
+fieldLayouts:
+  b515259c-c0bc-4fe2-9f6f-6ddf91c62771:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 90754726-216a-4a18-803f-aa9af99a1fca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ec0b504-2ee1-41ff-8833-1e9491e2d00f # Asset Reference
+            instructions: null
+            label: 'Feature Image'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ab065275-fc0b-410b-8645-cd86cfa8e82a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5d351833-d763-4fe9-8d40-91e15af8c45e # Body Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f8432aa1-6019-49e0-a42c-f1c07e09b7da
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dc9e07b5-5866-4473-8d4e-09923d0cbca3
+        userCondition: null
+handle: bioPage
+hasTitleField: true
+name: 'Bio Page'
+section: 7df5cc7f-4b1a-4753-a430-be71ec935431 # Bio Page
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

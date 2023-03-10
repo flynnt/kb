@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: posts
+name: Posts
+propagationMethod: all
+siteSettings:
+  8a56ddf9-a994-40ee-ae3d-63671696537a: # Almost Almost Famous
+    enabledByDefault: true
+    hasUrls: true
+    template: posts/_entry
+    uriFormat: '{slug}'
+type: channel
