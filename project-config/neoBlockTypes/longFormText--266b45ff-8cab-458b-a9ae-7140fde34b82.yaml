@@ -1,0 +1,39 @@
+childBlocks: null
+conditions: null
+description: null
+enabled: true
+field: 9ec1e773-3ffc-4032-9d3b-0a9453e3a498 # Post Content
+fieldLayouts:
+  de5a30fb-a668-4dfa-a631-2c43df2475b7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5d351833-d763-4fe9-8d40-91e15af8c45e # Body Content
+            instructions: null
+            label: 'Rich Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48b6dd62-a29f-4c89-8708-1cf50846f9d6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 720d09fc-2d80-49e6-b2ee-5d0c47448c61
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: longFormText
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Long Form Text'
+sortOrder: 1
+topLevel: true

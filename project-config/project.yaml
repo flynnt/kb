@@ -1,0 +1,336 @@
+dateModified: 1678377117
+email:
+  fromEmail: ted.flynn@hey.com
+  fromName: 'Almost Almost Famous'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    apiKey: $MAILGUN_API_KEY
+    domain: $MAILGUN_DOMAIN
+    endpoint: ''
+  transportType: craft\mailgun\MailgunAdapter
+fs:
+  administrativeAssets:
+    hasUrls: true
+    name: 'Administrative Assets'
+    settings:
+      cdnUrlPattern: ''
+      customSubfolder: administrative/
+      makeUploadsPublic: true
+      optimisePrefix: ''
+      optimiseUrlPattern: ''
+      projectSlug: ''
+      securityKey: ''
+      subfolder: sour-bustard/local/administrative/
+    type: servd\AssetStorage\AssetsPlatform\Fs
+    url: 'https://cdn2.assets-servd.host/'
+  postImages:
+    hasUrls: true
+    name: 'Post Images'
+    settings:
+      cdnUrlPattern: ''
+      customSubfolder: post-images/
+      makeUploadsPublic: true
+      optimisePrefix: ''
+      optimiseUrlPattern: ''
+      projectSlug: ''
+      securityKey: ''
+      subfolder: sour-bustard/local/post-images/
+    type: servd\AssetStorage\AssetsPlatform\Fs
+    url: 'https://cdn2.assets-servd.host/'
+meta:
+  __names__:
+    0e1f33ee-a6fc-41fb-8de1-a932cc9d219e: 'Generic Link' # Generic Link
+    5d351833-d763-4fe9-8d40-91e15af8c45e: 'Body Content' # Body Content
+    7df5cc7f-4b1a-4753-a430-be71ec935431: 'Bio Page' # Bio Page
+    7e27c6f5-9afe-46ec-bd0b-4ddac1c0f97a: 'Birthday Invitations' # Birthday Invitations
+    8a56ddf9-a994-40ee-ae3d-63671696537a: 'Almost Almost Famous' # Almost Almost Famous
+    8bb19591-12bd-489c-808a-1d2f382e4bb1: 'Post Image' # Post Image
+    8dcd9326-6522-4bfc-88a5-27c7891571c1: 'Site Meta' # Site Meta
+    9ec0b504-2ee1-41ff-8833-1e9491e2d00f: 'Asset Reference' # Asset Reference
+    9ec1e773-3ffc-4032-9d3b-0a9453e3a498: 'Post Content' # Post Content
+    9f3c4fcf-c642-4bb7-aa57-6ada224178f9: 'Form Reference' # Form Reference
+    30ca8e1f-8f15-4177-b38e-85dfeccc9727: New # New
+    34a9893e-bce0-4b95-a3b3-b8f2f87bdead: 'Plain Text' # Plain Text
+    82d1828a-cff8-4fd6-b68d-2de8e8ad490b: Posts # Posts
+    208d81ff-52ed-4b7a-939a-98c187eb1aa7: Home # Home
+    266b45ff-8cab-458b-a9ae-7140fde34b82: 'Long Form Text' # Long Form Text
+    1948c7ef-d79c-40d1-81ad-b896d09bf2cc: 'Site Description' # Site Description
+    6568f2b9-3274-425e-8312-179c9e29df25: 'User Profile Image' # User Profile Image
+    8314df0a-2fa3-45a4-a709-eb57f54a091d: 'Contact Form' # Contact Form
+    0662353e-9d70-41a3-a5ea-392a008b96b5: 'Bio Page' # Bio Page
+    a4601804-5bf4-43c7-b6ca-03568f65071d: 'Primary Navigation' # Primary Navigation
+    aae2bd13-0aeb-4542-9a0a-de895a90d15d: New # New
+    af11333b-27a5-41ad-bedf-4900be7b53c9: 'Primary Navigation' # Primary Navigation
+    b20b7d75-0ff3-427f-945d-1d92c5e34ad5: Links # Links
+    b54cea68-f5cf-437a-880c-f84879418a13: Common # Common
+    b5631dcf-688e-4641-9ff0-8e2de6cbbca7: 'Post Images' # Post Images
+    c8b6494f-6ec0-4346-b149-d18fd151a28a: 'Almost Almost Famous' # Almost Almost Famous
+    c45ca415-4312-4593-8643-fa819597555c: Default # Default
+    c62331a1-5d5a-463a-a3b5-3c62f816c491: 'Administrative Assets' # Administrative Assets
+    ca796f8b-aa6f-4cb0-8b88-23549d5c5fe1: Posts # Posts
+    cb0986b5-8d5b-4ff1-8041-8e10f2da9b79: Caption # Caption
+    de7b165b-8df8-4e8b-831b-d4c04c90708a: 'Public Schema' # Public Schema
+    dfa4f146-848d-4a36-a839-e747b0353c50: 'Form Reference Block' # Form Reference Block
+    e5c6a760-6a89-4c3d-a905-deed0d459b06: Home # Home
+    e8a7248c-4a16-42bb-81af-995cc403b7ee: 'Contact Form' # Contact Form
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: 50PUCILMAJ1G9SH4CORH7IZ2
+    schemaVersion: 2.0.10
+    settings:
+      ajaxTimeout: 10
+      alertEmails: null
+      captchas:
+        __assoc__:
+          -
+            - recaptcha
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Recaptcha
+                -
+                  - enabled
+                  - '1'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      0:
+                        - handle
+                        - recaptcha
+                      1:
+                        - secretKey
+                        - $RECAPTCHA_SECRET_KEY
+                      2:
+                        - siteKey
+                        - $RECAPTCHA_SITE_KEY
+                      3:
+                        - type
+                        - v3
+                      4:
+                        - size
+                        - normal
+                      5:
+                        - theme
+                        - light
+                      6:
+                        - badge
+                        - bottomright
+                      7:
+                        - language
+                        - en
+                      8:
+                        - minScore
+                        - 0.5
+                      10:
+                        - scriptLoadingMethod
+                        - asyncDefer
+          -
+            - hcaptcha
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Hcaptcha
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - hcaptcha
+                      -
+                        - secretKey
+                        - $HCAPTCHA_SECRET_KEY
+                      -
+                        - siteKey
+                        - $HCAPTCHA_SITE_KEY
+                      -
+                        - size
+                        - normal
+                      -
+                        - theme
+                        - light
+                      -
+                        - language
+                        - en
+                      -
+                        - minScore
+                        - 0.5
+                      -
+                        - scriptLoadingMethod
+                        - asyncDefer
+          -
+            - duplicate
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Duplicate
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - duplicate
+          -
+            - honeypot
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Honeypot
+                -
+                  - enabled
+                  - '1'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - honeypot
+          -
+            - javascript
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Javascript
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - javascript
+      defaultDateDisplayType: calendar
+      defaultDateTime: null
+      defaultDateValueOption: ''
+      defaultEmailTemplate: ''
+      defaultFileUploadVolume: ''
+      defaultFormTemplate: ''
+      defaultInstructionsPosition: verbb\formie\positions\AboveInput
+      defaultLabelPosition: verbb\formie\positions\AboveInput
+      defaultPage: forms
+      emptyValuePlaceholder: 'No response.'
+      enableBackSubmission: true
+      enableCsrfValidationForGuests: true
+      enableUnloadWarning: true
+      includeDraftElementUsage: false
+      includeRevisionElementUsage: false
+      maxIncompleteSubmissionAge: 30
+      maxSentNotificationsAge: 30
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      pluginName: Formie
+      queuePriority: null
+      saveSpam: true
+      sendEmailAlerts: false
+      sentNotifications: true
+      spamBehaviour: showSuccess
+      spamBehaviourMessage: ''
+      spamEmailNotifications: false
+      spamKeywords: ''
+      spamLimit: 500
+      useQueueForIntegrations: true
+      useQueueForNotifications: true
+  mailgun:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: WU5TYMKJIC60A09LVRMU3FJW
+    schemaVersion: 3.6.2
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: 65S88HK8CEFNUTZLUYQCVVD2
+    schemaVersion: 3.0.11
+  servd-asset-storage:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+    settings:
+      adjustFeedmeLogs: ''
+      assetsEnvironment: ''
+      assetsEnvironmentOverwrite: ''
+      cacheClearMode: full
+      clearCachesOnSave: always
+      disableDynamic: ''
+      disableTransforms: ''
+      fsMaps:
+        __assoc__:
+          -
+            - administrativeAssets
+            - none
+          -
+            - postImages
+            - none
+      fsMapsEnabled: ''
+      imageAutoConversion: webp
+      injectCors: '1'
+      projectSlug: $SERVD_PROJECT_SLUG
+      securityKey: $SERVD_SECURITY_KEY
+      suppressWarnings: ''
+      useLocalVolumes: false
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Almost Almost Famous'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: 'user-photos/{username}'
+  photoVolumeUid: c62331a1-5d5a-463a-a3b5-3c62f816c491 # Administrative Assets
+  requireEmailVerification: true

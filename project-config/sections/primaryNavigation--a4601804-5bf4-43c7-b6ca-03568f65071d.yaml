@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: false
+handle: primaryNavigation
+name: 'Primary Navigation'
+propagationMethod: all
+siteSettings:
+  8a56ddf9-a994-40ee-ae3d-63671696537a: # Almost Almost Famous
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: e02c99ab-c869-43d9-b1c2-5ab94a16536e
+type: structure
