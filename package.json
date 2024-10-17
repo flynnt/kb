@@ -7,10 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "clean": "rimraf _site",
-    "copy:media": "ncp src/assets/media _site/assets/media",
+    "clean": "rimraf docs",
+    "copy:media": "ncp src/assets/media docs/assets/media",
     "build": "npm-run-all --serial clean compile:site compile:css --parallel copy:media",
-    "compile:css": "postcss --no-map -o _site/assets/styles/main.css src/assets/styles/main.css",
+    "compile:css": "postcss --no-map -o docs/assets/styles/main.css src/assets/styles/main.css",
     "compile:site": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
