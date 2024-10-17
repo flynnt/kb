@@ -1,0 +1,49 @@
+{
+  "name": "kb",
+  "version": "1.0.0",
+  "description": "Personal website of Keri Burchfield, PhD",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "clean": "rimraf _site",
+    "copy:media": "ncp src/assets/media _site/assets/media",
+    "build": "npm-run-all --serial clean compile:site compile:css --parallel copy:media",
+    "compile:css": "postcss --no-map -o _site/assets/styles/main.css src/assets/styles/main.css",
+    "compile:site": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynnt/kb.git"
+  },
+  "author": "Ted Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flynnt/kb/issues"
+  },
+  "homepage": "https://github.com/flynnt/kb#readme",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@csstools/postcss-global-data": "^3.0.0",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-compat": "^6.0.1",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "ncp": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.3",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}

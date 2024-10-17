@@ -1,0 +1,59 @@
+/* ----------------------------------------------------------------------------
+Components: User Content
+---------------------------------------------------------------------------- */
+.user-content > *:first-child {
+  margin-top: 0 !important;
+}
+
+.user-content > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+/*
+ Headings
+
+ 1. Take advantage of margin collapsing to create greater space above a heading
+ 2. Reduce line-height as headings are much larger than body copy
+ 3. Headings should stay the same color as intended and not inherit link styles and use !important to override inheritance from ancestors
+========================================================================== */
+.user-content h1,
+.user-content h2,
+.user-content h3,
+.user-content h4,
+.user-content h5,
+.user-content h6 {
+  margin-top: 1.7rem; /* 1 */
+  margin-bottom: 1rem;
+  font-family: var(--prominent-font-family);
+  font-weight: 600;
+  line-height: 1.2; /* 2 */
+}
+
+.user-content h1 {
+  font-size: 2rem;
+}
+
+.user-content h2 {
+  font-size: 1.5rem;
+}
+
+.user-content h3 {
+  font-size: 1.3125rem;
+}
+
+.user-content h4 {
+  font-size: 1.125rem;
+}
+
+.user-content h5 {
+  font-size: 1rem;
+}
+
+.user-content h1 a,
+.user-content h2 a,
+.user-content h3 a,
+.user-content h4 a,
+.user-content h5 a,
+.user-content h6 a {
+  color: inherit !important; /* 3 */
+}

@@ -1,0 +1,27 @@
+/* ----------------------------------------------------------------------------
+Overrides: Utilities
+---------------------------------------------------------------------------- */
+.is-visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.show-above-small {
+  display: none !important;
+}
+
+@media (--above-small-viewport) {
+  .hide-above-small {
+    display: none !important;
+  }
+
+  .show-above-small {
+    display: block !important;
+  }
+}

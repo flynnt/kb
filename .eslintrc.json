@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:compat/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "html"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2023
+  },
+  "rules": {
+    "no-console": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  }
+}
