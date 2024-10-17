@@ -1,74 +1,49 @@
 {
-    "name": "kb",
-    "version": "1.0.0",
-    "description": "Personal website of Dr. Keri Burchfield",
-    "developedBy": "tflynn",
-    "main": "",
-    "dependencies": {
-        "babel-polyfill": "^6.26.0",
-        "nerdery-has-js": "./tools/cache/nerdery-has-js"
-    },
-    "devDependencies": {
-        "autoprefixer": "^8.4.1",
-        "babel-eslint": "^8.2.3",
-        "babel-preset-env": "^1.6.1",
-        "babel-register": "^6.26.0",
-        "babelify": "^8.0.0",
-        "browser-sync": "^2.23.7",
-        "browserify": "^16.2.0",
-        "browserify-shim": "^3.8.14",
-        "cross-env": "^5.1.4",
-        "del": "^3.0.0",
-        "env-merger": "^1.0.0",
-        "envify": "^4.1.0",
-        "eslint": "^4.19.1",
-        "gulp": "^3.9.1",
-        "gulp-cheerio": "^0.6.3",
-        "gulp-clean-css": "^3.9.3",
-        "gulp-concat": "^2.6.1",
-        "gulp-eslint": "^4.0.2",
-        "gulp-if": "^2.0.2",
-        "gulp-notify": "^3.2.0",
-        "gulp-nunjucks": "^3.1.1",
-        "gulp-nunjucks-render": "^2.2.2",
-        "gulp-plumber": "^1.2.0",
-        "gulp-postcss": "^7.0.1",
-        "gulp-rename": "^1.2.2",
-        "gulp-replace": "^0.6.1",
-        "gulp-sass": "^4.0.1",
-        "gulp-sourcemaps": "^2.6.4",
-        "gulp-stylelint": "^7.0.0",
-        "gulp-svgmin": "^1.2.4",
-        "gulp-svgstore": "^6.1.1",
-        "gulp-uglify": "^3.0.0",
-        "gulp-util": "^3.0.8",
-        "nunjucksify": "^2.2.0",
-        "run-sequence": "^2.2.1",
-        "shelljs": "^0.8.1",
-        "stylelint": "^9.2.0",
-        "through2": "^2.0.3",
-        "vinyl-buffer": "^1.0.1",
-        "vinyl-source-stream": "^2.0.0",
-        "watchify": "^3.11.0"
-    },
-    "optionalDependencies": {
-        "gulp-imagemin": "^4.1.0",
-        "gulp-yuidoc": "^0.1.2",
-        "imagemin-pngquant": "^5.1.0"
-    },
-    "scripts": {
-        "prod": "cross-env NODE_ENV=production gulp",
-        "dev": "cross-env NODE_ENV=development gulp",
-        "icons": "cross-env NODE_ENV=development gulp icons",
-        "serve": "cross-env NODE_ENV=development gulp serve",
-        "lintScripts": "cross-env NODE_ENV=development gulp lintScripts",
-        "lintStyles": "cross-env NODE_ENV=development gulp lintStyles",
-        "optimize": "cross-env NODE_ENV=development gulp optimize",
-        "postinstall": "node tools/npm-postinstall"
-    },
-    "engines": {
-        "node": ">=8.11.1"
-    },
-    "browser": {},
-    "browserify-shim": {}
+  "name": "kb",
+  "version": "1.0.0",
+  "description": "Personal website of Keri Burchfield, PhD",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "clean": "rimraf _site",
+    "copy:media": "ncp src/assets/media _site/assets/media",
+    "build": "npm-run-all --serial clean compile:site compile:css --parallel copy:media",
+    "compile:css": "postcss --no-map -o _site/assets/styles/main.css src/assets/styles/main.css",
+    "compile:site": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynnt/kb.git"
+  },
+  "author": "Ted Flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flynnt/kb/issues"
+  },
+  "homepage": "https://github.com/flynnt/kb#readme",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@csstools/postcss-global-data": "^3.0.0",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-compat": "^6.0.1",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "ncp": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "postcss-custom-media": "^11.0.3",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
 }

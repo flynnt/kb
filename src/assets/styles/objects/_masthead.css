@@ -1,0 +1,13 @@
+/* ----------------------------------------------------------------------------
+Objects: Masthead
+---------------------------------------------------------------------------- */
+.masthead {
+  align-items: center;
+  display: flex;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.masthead > * + * {
+  margin-left: 16px;
+}

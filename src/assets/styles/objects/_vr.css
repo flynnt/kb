@@ -1,0 +1,14 @@
+/* ----------------------------------------------------------------------------
+Objects: VR
+---------------------------------------------------------------------------- */
+.vr--3x {
+  margin-bottom: calc(var(--base-vr-unit) * 3);
+}
+
+.vr--4x {
+  margin-bottom: calc(var(--base-vr-unit) * 4);
+}
+
+.vr--8x {
+  margin-bottom: calc(var(--base-vr-unit) * 8);
+}
